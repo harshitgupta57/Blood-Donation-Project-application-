@@ -1,0 +1,11 @@
+
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+    <style name="textimputlayoutstyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor"> #fff</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profileactivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/profiletoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#Be5025"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/profileactivityimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profilefaceimage"
+        app:civ_border_color="#FF000000"
+        android:layout_margin="20dp"
+        app:civ_border_width="2dp" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profiletextview"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profileemailid"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profiletype"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilephonenumber"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilebloodgroup"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profileaddress"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilebackbutton"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:text="Go Back"
+        android:textColor="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+
+
+
+
+
+
+
+</LinearLayout>
